@@ -145,8 +145,9 @@ manual
 
 load
    jmeter
-      search-api-test.jmx
-      jmeter-results.png
+      ProductSearchLoadTest.jmx
+      summary_report.png
+      view_result_tree.png
 
    k6
       load-test.js
