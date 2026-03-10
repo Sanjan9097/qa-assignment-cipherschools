@@ -114,138 +114,24 @@ Files included:
 
 ---
 
-## GitHub Setup & Version Control
 
-### 1. Initialize Git Repository
 
-If this is your first time setting up the repository:
 
-```bash
-cd qa-assignment-cipherschools
-git init
-```
 
-### 2. Configure Git
 
-Set your Git user name and email (do this once):
 
-```bash
-git config --global user.name "Your Name"
-git config --global user.email "your.email@example.com"
-```
 
-### 3. Add Files to Staging
 
-Add all project files:
 
-```bash
-git add .
-```
 
-Or add specific files:
 
-```bash
-git add README.md
-git add k6/load-test.js
-git add e2e/test.js
-```
 
-### 4. Create Initial Commit
 
-```bash
-git commit -m "Initial commit: QA assignment with E2E and load tests"
-```
 
-### 5. Create GitHub Repository
 
-1. Go to [GitHub.com](https://github.com) and sign in
-2. Click **New Repository**
-3. Name: `qa-assignment-cipherschools`
-4. Choose **Public** or **Private** based on your preference
-5. **DO NOT** initialize with README (we already have one)
-6. Click **Create Repository**
 
-### 6. Add Remote Repository
 
-Copy the repository URL from GitHub and run:
 
-```bash
-git remote add origin https://github.com/YOUR-USERNAME/qa-assignment-cipherschools.git
-```
-
-Replace `YOUR-USERNAME` with your actual GitHub username.
-
-### 7. Push to GitHub
-
-Push your code to the main branch:
-
-```bash
-git branch -M main
-git push -u origin main
-```
-
-### 8. Verify on GitHub
-
-Visit your repository URL:
-```
-https://github.com/YOUR-USERNAME/qa-assignment-cipherschools
-```
-
-You should see all your files there.
-
-### Common Git Commands
-
-**Check status**:
-```bash
-git status
-```
-
-**View commit history**:
-```bash
-git log
-```
-
-**Create a new branch** (for feature development):
-```bash
-git checkout -b feature/new-test-cases
-```
-
-**Switch branches**:
-```bash
-git checkout main
-```
-
-**Merge a branch**:
-```bash
-git merge feature/new-test-cases
-```
-
-**Push changes**:
-```bash
-git push origin main
-```
-
-**Pull latest changes**:
-```bash
-git pull origin main
-```
-
-### .gitignore
-
-Create a `.gitignore` file to exclude unnecessary files:
-
-```
-node_modules/
-.env
-.DS_Store
-*.log
-results/
-dist/
-```
-
-Save this as `.gitignore` in the project root.
-
----
 
 ## Repository Structure
 
