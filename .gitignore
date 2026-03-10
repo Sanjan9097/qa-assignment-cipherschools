@@ -1,0 +1,38 @@
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+
+# Test results
+results/
+test-results/
+coverage/
+
+# K6 output
+dist/
+output/
+
+# Logs
+*.log
+logs/
+
+# Artifacts
+*.png
+*.jpg
+build/
